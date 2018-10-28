@@ -1,0 +1,16 @@
+The first thing i did when i satrted this assignment was to modify the code i had from last assignment and fix it. I was not able to finish it last time so i kind off had to start from scratch. 
+
+Some of the problems i faced during the assignment were about how to print and not use STDOUT. The other thing i had to figure out was to how to search a directory to find a csv file. 
+
+The other thing i had problem with was how to track the total processes without sharred memory between processes. I came to a realization that i can do it by returning the amount of processed created per child when the child is terminated and keeping a counter in the intial function that was incremented by the exit status of each child.
+
+With the traversal of directory, i made mu processes fork and sort files in the directory and the subdirectory. I was also able to implement the -o feature leading to the desired output directory by passing the intended path the file sorting function and outputing sorted files. 
+
+After everything was done i checked my code with the provided csv file. I do feel quite confident about my project but it would have been better if i had started earlier. 
+
+
+
+
+
+
+
