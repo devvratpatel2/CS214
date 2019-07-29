@@ -1,0 +1,15 @@
+E,F: Two more workloads of your choosing
+
+	Both the test cases will run for 100 iterations and the average time will be shown at the end.
+        
+E.  In the first  test case, pick any random number of bytes ranging from 2 to 64. Now, malloc until you can and 
+	once we are done with that, free every other pointer so : 0, 2, 4 ......
+	Now pick another number that will fit in the free space without splitting to occur and re malloc the same freed 
+	pointers. Once that is done, free all the nodes. 
+	The range is only 2-64 as if we get 1, then 1-0 will 0 and that will cause an error.
+
+        
+F.	In this test case, pick any random number of bytes ranging from 10-64. Now, malloc until you can and 
+	once we are done with that, free every other pointer so : 0, 2, 4 ....
+	Now pick another number that will fit in the free space without splitting to occur and re malloc the same freed pointers. Once that is dine, free all the nodes.
+

@@ -1,0 +1,79 @@
+1 ./pointersorter "aand Aand AAnd aAnd"
+AAnd
+Aand
+aAnd
+aand
+
+
+2 ./pointersorter "testing7is8the8key"
+the
+testing
+key
+is
+
+
+3 ./pointersorter "a very very veyr veyr veyryuea; dosaiuasdjh hadsyu sah asudou oasud dsiaou e asudyo LONGGGGGGGG STRING"
+STRING
+LONGGGGGGGG
+veyr
+veyr
+veyryuea
+very
+very
+sah
+oasud
+hadsyu
+e
+dsiaou
+dosaiuasdjh
+a
+asudyo
+asudou
+
+
+4 ./pointersorter "cat CAT cAT caT CaT zebra ZEEBTA"ZEEBTA
+CAT
+CaT
+zebra
+cAT
+caT
+cat
+
+
+5 ./pointersorter "a2s35f68868d097d/dsa;[.f[dfhuhdsf*/-*f-s0f9"
+s
+s
+f
+f
+f
+f
+d
+d
+dsa
+dfhuhdsf
+a
+
+
+6 ./pointersorter ""
+
+
+
+7 ./pointersorter "a"
+a
+
+
+8 ./pointersorter "addas/0dsa"
+dsa
+addas
+
+
+9 ./pointersorter adssdadsadsa dfssfdfs
+Incorrect number of arguments!
+
+
+
+10 ./pointersorter 'saddas' 'sad'sad
+Incorrect number of arguments!
+
+
+
